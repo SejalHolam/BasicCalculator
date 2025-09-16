@@ -3,7 +3,7 @@ import styles from "./Display.module.css";
 function Display (){
 return(
     <>
-     <input className={styles.display} type="text"></input>
+      <input type="text" className={styles.display} value={display} readOnly />
     </>
 )
 }
