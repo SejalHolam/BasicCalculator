@@ -16,7 +16,7 @@ function App() {
       const newVal = calVal + value;
       setCalVal(newVal);
     }
-  };
+  }
 
   return (
     <>
